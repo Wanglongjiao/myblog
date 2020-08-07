@@ -5,6 +5,19 @@ permalink: 404.html
 ---
 
 <div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ "/" | relative_url }}">Head back home</a> to try finding it again.</p>
+    <h1 class="page-title">404: Page not found</h1>
+    <div id="catch-the-cat">
+        <canvas width="570" height="501"></canvas>
+    </div>
+    <script>window.game = new CatchTheCatGame({
+        w: 11,
+        h: 11,
+        r: 20,
+        backgroundColor: 16777215,
+        parent: "catch-the-cat",
+        statusBarAlign: "center",
+        credit: "www.52pojie.cn"
+    })</script>
+    <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="{{ "/" |
+        relative_url }}">Head back home</a> to try finding it again.</p>
 </div>
