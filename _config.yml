@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Hydeout
+title:            博客
 tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+description:      '学如逆水行舟,不进则退.'
 url:              https://wanglongjiao.github.io
 baseurl:          '/myblog'
                   # the optional subpath of your site, e.g. "/blog"
